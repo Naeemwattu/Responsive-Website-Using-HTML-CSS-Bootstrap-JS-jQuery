@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+.navbar{
+    background-color: rgb(58, 172, 172);
+    padding: 0 !important;
+
+}
+.navbar-nav li{
+    padding: 5px 15px;
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+}
+.navbar .fa{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    /* font-weight: 600; */
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 30px !important;
+    padding-left: 10px;
+    font-weight: 600 !important;
+}
+
+
+/* -------------banner-section-------------- */
+#banner{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/bg\ 1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner h1{
+    font-size: 50px;
+    padding-top: 15%;
+    color: white;
+}
+#banner p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
